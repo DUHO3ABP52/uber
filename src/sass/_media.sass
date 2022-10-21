@@ -1,0 +1,226 @@
+@media (max-width: 1200px)
+    .menu
+        &__item
+            padding-right: 20px
+        &__link
+            font-size: 13px
+    .promo
+        &__header
+            font-size: 50px
+    .benefits
+        &__item
+            align-items: flex-start
+        &__title
+            width: 300px
+    .mobile
+        &_item
+            max-width: 300px
+
+@media (max-width: 991px)
+    .menu
+        &__item
+            padding-right: 8px
+        &__link
+            font-size: 10px
+    .subheader
+        &__link
+            img
+                width: 100%
+        &__oficial
+            font-size: 11px
+        &__phone
+            font-size: 18px
+        &__btn
+            width: 100%
+            height: 40px
+    .promo
+        &__header
+            font-size: 40px
+        &__subheader
+            font-size: 25px
+    .benefits
+        &__item
+            flex-direction: column
+            align-items: center
+        &__title
+            width: 300px
+            margin-top: 20px
+    .choice
+        &_img
+            width: 100%
+
+    .mobile
+        &_item
+            max-width: 220px
+            max-height: 260px
+
+@media (max-width: 577px)
+    .menu
+        position: fixed
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        top: 0px
+        left: -100%
+        width: 50%
+        height: 100vh
+        padding: 20px 15px
+        background-color: rgba(0,0,0, .8) 
+        transition: 0.6s all 
+        z-index: 10  
+        &_active
+            left: 0
+        &__item
+            padding-right: 0
+            border: none
+            margin: 10px 0 0 0
+        &__link
+            font-size: 20px
+    .hamburger
+        disolay: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)
+        width:26px
+        height: 12px
+        span
+            display: block
+            height:2px
+            width:100%
+            background-color: #fff
+            margin-bottom: 3px
+            trasition: 0.5s all
+        &_active
+            span
+                margin-bottom: -2px
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(45deg)
+                &:nth-child(2)
+                    display: none
+
+    .xs-hidden
+        display: none
+    
+    .xs-visible
+        display: block
+
+    .subheader
+        &__link
+            img
+                width: 100%
+                margin-top: 30px
+        &__oficial
+            display: none
+        &__phone
+            font-size: 16px
+            font-weight: 400
+            text-transform: uppercase
+            text-align: Center
+            vertical-align: Center
+        &__text
+            display: none
+        &__btn
+            display: block
+            width: 200px
+            height: 40px
+            margin: 0 auto
+
+    .promo
+        &__header
+            line-height: 45px
+        &__subheader
+            line-height: 32px
+            margin-top: 20px
+
+    .benefits
+        &__item
+            flex-direction: column
+            align-items: center
+        
+        &__title
+            width: 100%
+            margin-top: 20px
+    .mobile
+        &_item
+            max-width: 100%
+            max-height: 260px
+    .footer
+        &_divider
+            width: 255px
+            height: 6px
+        &_wrapper
+            flex-direction: column
+
+@media (max-width: 557px)
+    header
+        height:32px       
+    .subheader
+        height:60px
+        &__link
+            img
+                width: 100%
+                margin-top: 23px
+        &__oficial
+            display: none
+        &__phone
+            font-size: 12px
+            font-weight: 400
+            text-transform: uppercase
+            text-align: Center
+            vertical-align: Center    
+        &__text
+            display: none
+        &__btn
+            display: block
+            width: 100px
+            height: 22px
+            margin: 0 auto
+            font-size: 9px
+            margin-top: -3px
+    
+    .promo
+        min-height: 400px
+        padding: 123px 0 35px 0
+        &__header
+            font-size: 30px
+            line-height: 35px
+        &__subheader
+            line-height: 20px
+            margin-top: 18px
+            line-height: 25px
+        &__descr
+            display: none
+
+    .benefits
+        padding: 20px 0 38px 0
+
+    .title
+        font-size: 10px
+        font-weight: 700
+        font-size: 16px
+        line-height: 16px
+    .subtitle
+        font-weight: 400
+        font-size: 14px
+        line-height: 21px
+
+    .choice
+        min-height: 390px
+        padding: 27px 0 31px 0
+        &_descr
+            color: #fff
+        .title
+            display: none
+        .subtitle
+            display: none
+        .black
+            height: 390px
+
+
+
+    .city
+        min-height: 250px
+        
